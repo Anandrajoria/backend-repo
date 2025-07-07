@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+
+# Unimportant project files
+backend/hey.txt 

@@ -1,7 +1,4 @@
-//! get most of fs practice
-
 const fs = require("fs");
-
 
 //! write file
 
@@ -47,7 +44,6 @@ const fs = require("fs");
 //   else console.log("removed");
 // });
 
-
 //! creating server
 // const http = require("http");
 // const server = http.createServer((req, res) => {
@@ -55,5 +51,33 @@ const fs = require("fs");
 // });
 
 // server.listen(3000)
+
+// ! read directory
+// fs.readdir("./", (err, data) => {
+//   if (err) throw err;
+//   console.log(data);
+// });
+
+//! getting file stats
+// fs.stat("hey.txt", (err, stats) => {
+//   if (err) throw err;
+//   console.log(stats.isFile());
+//   console.log(stats.size);
+// });
+
+//! Using Promises with fs\promises
+
+/*
+const nfs = require("fs/promises");
+async function readFileData() {
+  try {
+    const data = await nfs.readFile("hey.txt","utf-8");
+    console.log(data);
+  } catch (err) {
+    console.log(err.message);
+  }
+}
+readFileData()
+*/
 
 
