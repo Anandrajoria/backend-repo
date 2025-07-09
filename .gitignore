@@ -4,16 +4,32 @@ node_modules/
 # Logs
 *.log
 
-# Temporary files
-*.tmp
+# Environment variables
+.env
+.env.*
 
-# System files
+# OS generated files
 .DS_Store
 Thumbs.db
 
-# Build artifacts
+# Build output
 dist/
 build/
 
-# Unimportant project files
-backend/hey.txt 
+# Temporary files
+*.tmp
+tmp/
+
+# Backup files
+*.bak
+
+# Vim swap files
+*.swp
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+
+# Local config
+*.local  
