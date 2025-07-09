@@ -1,3 +1,5 @@
+// node js uses REPL => read, evaluate, print, loop
+
 const {calculateMult,sum,xyz} = require('./calculate')
 const data = require('./data.json')
 // require("./xyz.js");
